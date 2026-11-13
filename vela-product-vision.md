@@ -34,13 +34,25 @@ Not for: people with advanced dementia or people who need hands-on care.
 
 Vela has five watches. All of them run through the same loop: the glasses sense, Vela's app on the phone understands, and Vela answers with a short spoken line in the ear.
 
-| Watch | What Vela does | Uses | Buildable for the hackathon? |
+Each watch is one everyday moment. The wearer does not choose a mode: Vela works out which watch applies from what the glasses sense, or the wearer simply asks out loud.
+
+| Watch | The moment | What happens, step by step | What Vela says (example) |
 |---|---|---|---|
-| **Scams** | Reads the letter, the text, or listens to the stranger at the door, and says when it looks like fraud. One gesture calls a trusted relative. | Camera, mic | Yes for letters, texts and doorstep. Live phone-call audio is likely hard to reach from a third-party app; verify. |
-| **Second look** | Confirms the pill in the hand against the schedule. Answers "did I turn off the stove?" and "where are my keys?". | Camera | Yes. Photo to a vision model, spoken answer. |
-| **Appointments** | Listens at the doctor's, then gives a plain summary to the wearer and the family. | Mic | Yes. Needs the doctor's consent to record. |
-| **Faces** | Shows the name and a line of context for family and friends who have enrolled. | Camera | Technically yes. Legally sensitive, see section 11. |
-| **Steps** | Tracks gait over weeks and outlines a trip hazard in poor light. | Motion sensors, camera | Vision only. Show it, do not build it. |
+| **Scams** | A letter arrives, a text comes in, a stranger is at the door. | The wearer looks at the letter or text, or the mic hears the stranger. The phone sends the photo or audio to the AI, which checks for known fraud patterns: urgency, requests for money or codes, fake bank or tax office. | "This letter asks you to pay today. Banks don't do that. Better not to pay. Shall I call Marta?" |
+| **Second look** | Taking a pill, leaving the house, looking for something. | The wearer looks at the pill, the stove or the keys and asks. The AI identifies what it sees and compares it with the pill schedule the family entered. | "The blue one is done for today." / "The stove is off." |
+| **Appointments** | At the doctor's. | The mic listens during the visit, with the doctor's consent. The AI turns it into a plain summary: diagnosis, new medication, next appointment. The family gets a copy. | "Today the doctor said: keep the same tablets, add one in the morning, and come back in three weeks." |
+| **Faces** | Someone approaches whose name the wearer cannot recall. | The camera sees a face. The AI matches it only against people who agreed to be enrolled, then names them with one line of context. | "That is Pablo, your neighbour from the third floor." |
+| **Steps** | Walking around the home over weeks. | Motion sensors record how the wearer walks. The AI looks for slow changes in gait, and for obstacles in poor light. | "Careful, there is a step ahead." |
+
+**What we can build for the hackathon**
+
+| Watch | Uses | Buildable? | Notes |
+|---|---|---|---|
+| **Scams** | Camera, mic | Yes, for letters, texts and the doorstep | Live phone-call audio is likely out of reach for a third-party app; verify. Calling a relative needs a trigger the wearer can use hands-free; verify what the toolkit offers. |
+| **Second look** | Camera | Yes | Photo to a vision model, spoken answer. Vela can only answer about what the camera sees now or saw earlier, so "where are my keys?" works only if she has seen them. Always-on is the vision, not today's build. |
+| **Appointments** | Mic | Yes | Needs the doctor's consent to record. |
+| **Faces** | Camera | Technically yes | Legally sensitive, see section 11. |
+| **Steps** | Motion sensors, camera | Vision only | Show it, do not build it. |
 
 **What the platform allows today**
 
