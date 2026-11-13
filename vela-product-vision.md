@@ -24,11 +24,19 @@ Today's answers arrive after the damage. An alarm pendant calls for help once so
 
 | | Who | What they want |
 |---|---|---|
-| **Wearer** | 70+, living alone or with a partner, still independent, starting to have slips | To keep their home and their pride. Not to be monitored or talked down to. |
-| **Buyer** | Their adult child, 45 to 60, often living in another city | To stop worrying, without moving a parent into care or calling five times a day. |
-| **Later** | Insurers, home-care providers, municipal telecare services | Fewer falls, hospital stays and care-home admissions. |
+| **Wearer, who pays** | 70+, living alone or with a partner, still independent, starting to have slips | To keep their home and their pride. Not to be monitored or talked down to. |
+| **Family** | Their adult children, often in another city. They don't pay, and the wearer chooses what they are told | To stop worrying, without calling five times a day. |
+| **Later** | Insurers, home-care providers, municipal telecare services | Fewer falls, hospital stays and care-home admissions. They may subsidise Vela, as many already do for personal alarms. |
 
 Not for: people with advanced dementia or people who need hands-on care.
+
+**Who pays: the wearer.** Vela works for the person wearing it, not for their children, so the wearer buys it, the way they already buy their glasses and hearing aids.
+- **What they pay:** the glasses once, at the optician, plus a monthly Vela subscription. The price is not set yet; a first anchor is what a personal alarm subscription costs today.
+- **Why they pay:** more years in their own home, on their own terms. The alternative the family is drifting towards, moving into care, costs thousands a month and costs them their home.
+- **Why it helps the product:** the wearer owns the account and decides who is told what. The family gets "all fine" and the moments the wearer chose to share, never a feed. Privacy becomes part of the business model, not just a policy.
+- **Gifts:** family can still buy it as a present, but ads and the pitch speak to the wearer.
+
+**Answer to the judges' "who pays?"** (about 15 s): "The wearer. Older people already pay for their glasses and hearing aids at the optician. Vela is sold the same way: the glasses once, plus a small monthly subscription. What they buy is more years in their own home, which is what most of them want and far cheaper than care. Later, insurers and municipal telecare services can subsidise it, as they already do with alarm pendants."
 
 ## 4. How it works
 
@@ -99,15 +107,15 @@ Vela has five watches. The wearer never asks for anything. Vela keeps watch on h
 - **In the ear:** Vela speaks one short line when something matters, and is silent otherwise. One line, never a menu. A soft chime can precede it.
 - **No screen on the glasses.** The firefly lives in the brand, the family app and the film, where it glows when Vela steps in.
 - **Phone app for the family:** a single screen. "Today: all fine." Below it, the few moments Vela stepped in. No live camera feed of the parent.
-- **Setup:** done once by the family. The wearer's part is to put the glasses on.
+- **Setup:** done once at the optician when the glasses are fitted, or with the family. The wearer chooses who gets the family app. After that, the wearer's part is to put the glasses on.
 
 ## 9. Advertising
 
 **After the hackathon:**
-- Advertise to the adult children on social media and to the wearer through places they already trust.
-- Opticians are the obvious channel. Older people already buy their glasses there.
+- The wearer pays, so ads speak to the wearer first, through places they already trust.
+- Opticians are the obvious channel. Older people already buy their glasses there, and the optician can set Vela up at the fitting.
 - Pharmacies, family doctors and insurers are the next ones.
-- Two versions of every ad: one that speaks to the wearer about independence, one that speaks to the family about peace of mind.
+- Main ad: the wearer and independence. Secondary ad: the family, as a gift and for peace of mind.
 
 ## 10. Launch video
 
@@ -142,6 +150,7 @@ No style is locked yet. Shoot one shared body and three openings, then choose in
 - The hackathon's judging criteria, date and video length limit.
 - Which video opening wins.
 - A trademark check on "Vela".
+- The monthly price, and whether the glasses are sold bundled with the subscription.
 
 ---
 
