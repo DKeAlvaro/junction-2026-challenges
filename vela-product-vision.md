@@ -10,7 +10,7 @@
 
 ## 1. What it is
 
-Vela is an AI guardian for older people that runs on Meta smart glasses. She sees what the wearer sees, hears what they hear, and steps in only when it matters. She appears as a small firefly of light at the edge of the lens and speaks in a calm voice.
+Vela is an AI guardian for older people that runs on Meta smart glasses. She sees what the wearer sees, hears what they hear, and steps in only when it matters. She speaks in a calm voice, in the wearer's ear. The firefly is her visual identity (brand, family app, launch film), not something drawn on a lens.
 
 Vela is one product, not five tools. The wearer never opens a "scam feature" or a "pill feature". They wear their glasses and Vela watches over the day.
 
@@ -32,7 +32,7 @@ Not for: people with advanced dementia or people who need hands-on care.
 
 ## 4. How it works
 
-Vela has five watches. All of them run through the same loop: the glasses sense, Vela's app on the phone understands, and Vela answers with a short line on the lens or in the ear.
+Vela has five watches. All of them run through the same loop: the glasses sense, Vela's app on the phone understands, and Vela answers with a short spoken line in the ear.
 
 | Watch | What Vela does | Uses | Buildable for the hackathon? |
 |---|---|---|---|
@@ -46,9 +46,17 @@ Vela has five watches. All of them run through the same loop: the glasses sense,
 
 - Meta's Wearables Device Access Toolkit reached a stable 1.0 on 30 September 2026. It gives a phone app the glasses' camera stream, photo capture, microphone, audio and motion sensors.
 - The app runs on the phone. The glasses are the eyes, ears and screen.
-- The toolkit can also draw on the lens of Meta Ray-Ban Display, but the wearer has to start each display session.
+- The toolkit can also draw on the lens of Meta Ray-Ban Display, but the wearer has to start each display session. Vela does not use it (see "Hardware decision").
 - Store publishing is not open yet. Developer Mode is enough for a hackathon.
 - In Europe, Meta Ray-Ban Display is sold only in the UK, France, Italy and Germany, at about €899. Full toolkit access is limited to Meta's supported countries.
+
+**Hardware decision.** Vela targets **Meta Ray-Ban Gen2** (camera, microphones, open-ear speakers, no display). Vela only ever talks to the wearer by voice, so a lens adds nothing the product needs. Reasons:
+- The five watches need camera, mic and audio only, all available on Gen2 through the toolkit.
+- Gen2 is sold and supported in more countries than Ray-Ban Display, so less risk with accounts and toolkit access.
+- Voice suits the user: no screen to read, nothing new to learn, works for people with poor eyesight.
+- Display stays a possible later extension, for example a short line for people who are hard of hearing.
+
+**Development without glasses (digital twin).** All of Vela is built against a small glasses interface: get a frame, get audio, say a line. Today the phone implements it (rear camera, microphone, speaker). When the glasses arrive, the toolkit implements it. Meta's Mock Device Kit is used to test that integration before the hardware is in hand. Keep the same limits as the glasses from day one: single photos rather than continuous video, mono Bluetooth audio, one short spoken line per answer.
 
 **Gap between demo and vision.** A real guardian is always on. Today a session has to be started by the wearer and the battery lasts around six hours of mixed use. The hackathon build should show Vela stepping in at chosen moments. The pitch should say plainly that always-on is where it is going.
 
@@ -81,14 +89,14 @@ Vela has five watches. All of them run through the same loop: the glasses sense,
 - **Character:** a firefly. She is a light, not a toy. No cartoon face, no childish voice.
 - **Personality:** calm, brief, respectful. She never says "you forgot". She says "the blue one is done for today".
 - **Voice:** warm, unhurried, short sentences. Never alarmed, even when warning.
-- **Colour:** warm amber on near-black, with soft cream for print and web. Amber on dark also suits the lens, where dark shows as transparent and light shows as visible.
+- **Colour:** warm amber on near-black, with soft cream for print and web. Amber on dark is used for the family app, the website and the launch film.
 - **Type:** a humanist serif for the wordmark, a large clear sans for everything the wearer reads.
 - **Avoid:** medical blue, stock photos of smiling pensioners, the word "elderly", anything that looks like a hospital product.
 
 ## 8. How it looks
 
-- **On the lens:** the firefly rests as a faint dot. When Vela has something to say, it glows and one line of large text appears. One line, never a menu.
-- **In the ear:** the same line, spoken.
+- **In the ear:** Vela speaks one short line when something matters, and is silent otherwise. One line, never a menu. A soft chime can precede it.
+- **No screen on the glasses.** The firefly lives in the brand, the family app and the film, where it glows when Vela steps in.
 - **Phone app for the family:** a single screen. "Today: all fine." Below it, the few moments Vela stepped in. No live camera feed of the parent.
 - **Setup:** done once by the family. The wearer's part is to put the glasses on.
 
@@ -127,7 +135,7 @@ No style is locked yet. Shoot one shared body and three openings, then choose in
 
 ## 12. Still to decide
 
-- Which glasses the team has: Meta Ray-Ban Display or the model without a screen.
+- Confirm the Gen2 loan is secured (2 of 10 were free at last check).
 - Whether the team's country is on Meta's supported list.
 - Which two watches are built for real and which are shown as vision.
 - The hackathon's judging criteria, date and video length limit.
