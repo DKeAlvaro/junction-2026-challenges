@@ -53,6 +53,7 @@ Vela has five watches. All of them run through the same loop: the glasses sense,
 **Hardware decision.** Vela targets **Meta Ray-Ban Gen2** (camera, microphones, open-ear speakers, no display). Vela only ever talks to the wearer by voice, so a lens adds nothing the product needs. Reasons:
 - The five watches need camera, mic and audio only, all available on Gen2 through the toolkit.
 - Gen2 is sold and supported in more countries than Ray-Ban Display, so less risk with accounts and toolkit access.
+- Glasses are barely intrusive. They look like ordinary glasses, so there is no pendant, bracelet or box that marks the wearer as "someone who needs watching". Gen2 keeps that, and a lens display would make them more noticeable.
 - Voice suits the user: no screen to read, nothing new to learn, works for people with poor eyesight.
 - Display stays a possible later extension, for example a short line for people who are hard of hearing.
 
@@ -62,7 +63,7 @@ Vela has five watches. All of them run through the same loop: the glasses sense,
 
 ## 5. Why it is useful
 
-- **For the wearer:** more years at home, fewer frightening moments, no new device to learn. They already wear glasses.
+- **For the wearer:** more years at home, fewer frightening moments, no new device to learn, and nothing that looks like a care gadget. They already wear glasses.
 - **For the family:** a short daily "all fine" instead of constant worry, and a call when something needs them.
 - **For health and care systems:** a fall or a missed prescription avoided is far cheaper than a hospital bed.
 
