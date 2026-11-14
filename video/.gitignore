@@ -1,0 +1,5 @@
+# Media and job files stay local; only the notes are tracked.
+*
+!.gitignore
+!AGENTS.md
+!CLAUDE.md

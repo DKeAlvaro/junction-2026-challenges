@@ -6,6 +6,8 @@ Junction 2026 hackathon workspace. Challenge texts are in `docs/` (one file per 
 
 Since 2026-11-14 ~17:15 Vela **only remembers faces**. The five watches (scams, pills, appointments, steps) were dropped. `vela-product-vision.md`, `vela-build-prompt.md` and `vela-launch-video.md` here describe that earlier plan and are **outdated**: don't answer from them. Current code: `vela/` (its own public repo, github.com/DKeAlvaro/vela, ignored by this one), exported from the hackathon VPS (`/home/vela/work/{app,glasses}`).
 
+**Launch video:** `video/` holds every asset of the VPS edit for a local re-edit. Read `video/AGENTS.md` first. Do not use his usual TikTok editing style there.
+
 ## API keys
 
 All keys live in `.env` at the repo root (gitignored, never commit or print them). Load with `set -a; source .env; set +a` or your framework's dotenv.
