@@ -27,7 +27,7 @@ layout so its scripts still run.
   - when the music stops, it stops on a beat with a reverb tail;
   - it comes back on a real attack.
 - v4: no hook at the start; the film opens on the Vela logo.
-- He wants:
+- Still to do (the v4 request was cut off at 4000 characters, so v4 has neither of these). He wants:
   - more examples of Vela recognising different people (niece, uncle, daughter, neighbour, doctor), so it looks professional;
   - a closing voice-over in Vela's voice ("I'm Vela. I'll help you remember the people you love.").
 - Iterate fast with short previews; render the full video only at the end.
@@ -41,7 +41,7 @@ layout so its scripts still run.
 | `wav/` | 16 kHz copies, plus Whisper JSONs with word times: `<id>.v3.json`, `<id>.turbo.json`, and `m<id>.v3.json` for the mic files |
 | `assets/song.mp3` | Hans Zimmer, "Time" (copyrighted: a YouTube Content ID claim is near certain) |
 | `assets/vela_g1.mp3`, `vela_g2.mp3` | ElevenLabs line "This is Diego, your grandson." (two takes; g1 is the one in use). `vela_line_a/b` = the old "your cousin or whatever" takes, dropped |
-| `vela_cap/clips/` | captures of the real Vela app UI: talk, recog, people, family, setup, watching, sting (logo), intro (v4 opening logo), end/end2 (end card), plus the v4 example cards. `contact.jpg` = contact sheet |
+| `vela_cap/clips/` | captures of the real Vela app UI: talk, recog, people, family, setup, watching, sting (logo), intro (v4 opening logo), end/end2 (end card). `contact.jpg` = contact sheet |
 | `vela_cap/scripts/` | Playwright capture and brand-card renderers. The Linux Playwright browsers were not copied: run `playwright install chromium` before re-capturing |
 | `dl/vela/` | the app build used for the captures. The current app is `../vela/` |
 | `pre/` | slow-motion interpolated shots: `slow_open` (grandpa alone), `slow_cb` (hands on head), `slow_scene` ("With Vela." opening), plus `pov_slow2.mp4` (glasses POV reframed) and the firefly, mask and shade PNGs |
