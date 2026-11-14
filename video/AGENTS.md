@@ -31,6 +31,22 @@ layout so its scripts still run.
   - more examples of Vela recognising different people (niece, uncle, daughter, neighbour, doctor), so it looks professional;
   - a closing voice-over in Vela's voice ("I'm Vela. I'll help you remember the people you love.").
 - Iterate fast with short previews; render the full video only at the end.
+- v5 brief (2026-11-14, supersedes the v4 structure): logo ~0.5 s -> his talk to camera (0530 + 0532) -> "Without Vela"
+  then "With Vela" skit; dramatic pauses; music under the whole film with the voice clearly on top.
+  - Don't build on the previous jobs (v1-v4 edits, `cfg.py`/`film.py` timelines, `pre/` slow-mo shots): start from `raw/`.
+  - No app screenshots/captures in the film.
+  - Few cuts and no odd zooms: one framing per take, no punch-ins or alternating framings; cut only hesitations, false
+    starts and long pauses.
+
+## v5 (current): `v5/`
+- `v5/film5.py` does everything from the raw clips: `plan | cards | audio | subs | segs | video | mux | words | check | grid`.
+  Run `segs`, `audio` and `video` detached (minutes). `mux` puts a new `final.wav` on the rendered picture.
+- Cards (logo, "Without Vela", "With Vela.", end logo) are drawn with PIL in Vela's fonts (`v5/cards/`).
+- Vela's lines were regenerated in ElevenLabs (same voice/settings): `v5/diego_1.mp3` ("This is Diego, your grandson."),
+  `v5/end_1.mp3` ("I'm Vela. I'll help you remember the people you love.", closing voice-over over the end logo).
+- New line found in 0530: 44.36-47.32 "Vela helps them remember them." (used after the long pause).
+- "Time": bars every 3.8105 s from 61.28 (99.38 build attack, 152.71 climax entrance, 206.04 and 209.85 downbeats).
+  The pauses are tuned in code so the cuts land on those beats.
 
 ## What is here
 | Path | What |
