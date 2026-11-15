@@ -47,6 +47,14 @@ layout so its scripts still run.
 - New line found in 0530: 44.36-47.32 "Vela helps them remember them." (used after the long pause).
 - "Time": bars every 3.8105 s from 61.28 (99.38 build attack, 152.71 climax entrance, 206.04 and 209.85 downbeats).
   The pauses are tuned in code so the cuts land on those beats.
+- Pauses in his talk (2026-11-15, he found the stops awkward): every gap >= 0.16 s raw shrinks to ~0.06 s
+  (0.12 s at a clause break), using whichever pair of safe troughs gets closest. Gaps < 0.16 s stay, since they can be
+  the closure inside a word (the "t" of "start"). Sentences get 0.12 s of lead-in and 0.08 s of tail. Stray clicks and
+  breaths are left out of the island lists so they get cut. Measure on the timeline with 10 ms RMS of
+  `voice_lv.wav` < -40 dB. After this pass the longest mid-sentence stop is ~0.27 s ("uncle, | or": a breath before "or"
+  that has no safe trough).
+- Wordmark: "Vela." capitalised on both logo cards, the same as every other on-screen "Vela" (the app itself uses
+  lowercase "vela").
 
 ## What is here
 | Path | What |
