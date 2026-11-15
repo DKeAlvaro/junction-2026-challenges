@@ -5,7 +5,7 @@ Vela
 
 ## Punchline
 Vela is the AI companion for elderly people. Through Ray-Ban Meta glasses she whispers the name of the person in front of you, so forgetting a name never stops you from living on your own.
-
+Vela is the AI companion for elderly people. She lives in your Meta glasses and quietly tells you the names of the people you love, so forgetting never keeps you from living on your own.
 ## Description
 Vela is the AI companion for elderly people.
 
